@@ -114,7 +114,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     # Prompt the user for the storage path.
-    default_android_path = "/storage/emulated/0/Download"
+    default_android_path = "/storage/emulated/0/Downloads"
     output_path_input = input(f"{Colors.BLUE}{Colors.BOLD}Enter the storage path (or press Enter for default: {default_android_path}):{Colors.RESET} {Colors.YELLOW}")
     sys.stdout.write(Colors.RESET) # Reset color after input
 
